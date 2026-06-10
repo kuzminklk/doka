@@ -1,6 +1,6 @@
 
-### Purpose 
-Detached repository for Doka study materials
+### Description 
+Detached repository for [Doka](https://doka.guide/) study materials
 
-### Associations
-More information, study path, summary in [detached Notion Page](https://www.notion.so/kuzminklk/31254d4de03580a398a4d9efb6184963?source=copy_link)
+### Purpose
+Part of computer-science study curriculum availabe in [Notion](https://app.notion.com/p/kuzminklk/31154d4de03580d7b5ceca5b187846be) (private for now)
