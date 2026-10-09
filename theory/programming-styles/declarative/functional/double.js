@@ -1,8 +1,7 @@
-
 // Эта функция чистая:
 
 function double(x) {
-  return x * 2
+	return x * 2
 }
 
 /*  При одинаковых вызовах она
@@ -20,8 +19,8 @@ double(2)
 let x = 1
 
 function double() {
-  x *= 2
-  return x
+	x *= 2
+	return x
 }
 
 /*  Она меняет (или мутирует) переменную x,
@@ -37,7 +36,7 @@ double()
 // Эта функция — тоже нечистая:
 
 function double() {
-  return x * 2
+	return x * 2
 }
 
 /*  Она зависит от переменной

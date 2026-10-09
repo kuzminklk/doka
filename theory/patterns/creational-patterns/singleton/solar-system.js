@@ -1,14 +1,13 @@
-
 class Sun {
-  static #instance = null
+	static #instance = null
 
-  constructor() {
-    if (Sun.#instance) {
-      return Sun.#instance
-    }
+	constructor() {
+		if (Sun.#instance) {
+			return Sun.#instance
+		}
 
-    Sun.#instance = this
-  }
+		Sun.#instance = this
+	}
 }
 
 // При первом вызове создастся новый объект:

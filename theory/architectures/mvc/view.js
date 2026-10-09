@@ -1,25 +1,24 @@
 const flashLightView = {
-  redraw() {
-    const { isOn, color } = flashLightModel
-    const flash = document.querySelector(".flashlight")
+	redraw() {
+		const { isOn, color } = flashLightModel
+		const flash = document.querySelector(".flashlight")
 
-    flash.classList.add(`has-color-${color}`)
-    if (isOn) {
-      flash.classList.add("is-on")
-    }
-  },
+		flash.classList.add(`has-color-${color}`)
+		if (isOn) {
+			flash.classList.add("is-on")
+		}
+	},
 }
 
 flashLightView.redraw()
 
-
 const flashLightViewEvents = {
-  // Остальной код
+	// Остальной код
 
-  initEvents() {
-    const powerButton = document.querySelector(`[name="power"]`)
-    powerButton.addEventListener("click", () => flashLightController.toggle())
+	initEvents() {
+		const powerButton = document.querySelector(`[name="power"]`)
+		powerButton.addEventListener("click", () => flashLightController.toggle())
 
-    // Код для событий других кнопок
-  },
+		// Код для событий других кнопок
+	},
 }

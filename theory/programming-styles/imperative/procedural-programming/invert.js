@@ -8,13 +8,13 @@
 let memory = [0, 0, 0, 0, 0, 0, 0, 0]
 
 function invertSmallestBit() {
-  memory[7] = Number(!memory[7])
-  return memory
+	memory[7] = Number(!memory[7])
+	return memory
 }
 
 function invertBiggestBit() {
-  memory[0] = Number(!memory[0])
-  return memory
+	memory[0] = Number(!memory[0])
+	return memory
 }
 
 invertSmallestBit()

@@ -1,29 +1,27 @@
-
 class CoffeeMachine {
-  turnOn() {}
-  getWaterLevel() {}
-  getWater() {}
-  turnOnHeater() {}
-  turnOffHeater() {}
-  getTemperature() {}
-  // ...
+	turnOn() {}
+	getWaterLevel() {}
+	getWater() {}
+	turnOnHeater() {}
+	turnOffHeater() {}
+	getTemperature() {}
+	// ...
 }
-
 
 const machine = new CoffeeMachine()
 
 function heatWater() {
-  machine.turnOn()
+	machine.turnOn()
 
-  while (machine.getWaterLevel() <= 1000) {
-    machine.getWater()
-  }
+	while (machine.getWaterLevel() <= 1000) {
+		machine.getWater()
+	}
 
-  machine.turnOnHeater()
+	machine.turnOnHeater()
 
-  if (machine.getTemperature() >= 90) {
-    machine.turnOffHeater()
-  }
+	if (machine.getTemperature() >= 90) {
+		machine.turnOffHeater()
+	}
 }
 
 heatWater()

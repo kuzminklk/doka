@@ -1,4 +1,3 @@
-
 /*  Основные понятия ООП: классы и экземпляры классов.
     Класс можно воспринимать как чертёж,
     по которому создаются объекты.
@@ -9,25 +8,25 @@
     по этому классу объект. */
 
 class User {
-  constructor(name) {
-    this.name = name
-    this.admin = false
-  }
+	constructor(name) {
+		this.name = name
+		this.admin = false
+	}
 
-  isAdmin() {
-      return this.admin
-  }
+	isAdmin() {
+		return this.admin
+	}
 
-  nameOf() {
-      return this.name
-  }
+	nameOf() {
+		return this.name
+	}
 }
 
 /*  Объекты создаются с помощью new.
     Свежесозданный объект содержит всё,
     что было описано в классе User. */
 
-const user = new User('Alex')
+const user = new User("Alex")
 console.log(user.isAdmin())
 // false
 console.log(user.nameOf())
@@ -37,7 +36,7 @@ console.log(user.nameOf())
     единожды описать все одинаковые поля и методы,
     которые должны быть у однотипных объектов. */
 
-const anotherUser = new User('Alice')
+const anotherUser = new User("Alice")
 console.log(anotherUser.isAdmin())
 // false
 console.log(anotherUser.nameOf())

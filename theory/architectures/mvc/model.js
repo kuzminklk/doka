@@ -1,5 +1,4 @@
-
 const flashLightModel = {
-  isOn: false,
-  color: "blue",
+	isOn: false,
+	color: "blue",
 }
